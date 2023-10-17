@@ -1,0 +1,258 @@
+@media (max-width: 1366px) {
+  #about h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #about .edu .flex2 td {
+    left: 800px;
+  }
+
+  #about h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  #about .items .about-info .item div {
+    margin-top: 1rem;
+  }
+
+  #about .edu {
+    flex-direction: column;
+  }
+
+  #about .edu .flex2 {
+    margin-top: 2rem;
+  }
+
+  #about .edu .flex2 td {
+    left: 315px;
+  }
+
+  #about h1 {
+    padding-bottom: 0.5rem;
+  }
+
+  #about .items .about-info .item > p {
+    font-size: 0.9rem;
+  }
+
+  #about .items .about-info .item .btn {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+  }
+
+  #about .items .about-info {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  #about .items .about-info .m-bottom {
+    margin-bottom: 1rem;
+  }
+  #about .flex3 .btn2 {
+    margin-top: 0.3rem;
+  }
+}
+
+@media (max-width: 769px) {
+  /* about */
+  #about .items .about-info {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  #about .items .about-info .item {
+    font-size: 0.75rem;
+  }
+
+  #about .items .about-info .item p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .progress4 {
+    margin-bottom: 0.1rem;
+  }
+
+  #about .items .about-info .btn {
+    padding: 0.5rem 3rem;
+    margin-bottom: 1rem;
+  }
+
+  /* contact */
+  #contact p {
+    padding: 0.4rem;
+  }
+
+  #contact .s3,
+  #contact .s5 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #about .items .about-info .m-bottom {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* about */
+  #about .items .about-info {
+    flex-direction: column;
+  }
+
+  .progress4 {
+    width: 380px;
+  }
+
+  /* contact */
+  #contact {
+    height: 170vh;
+  }
+  #contact textarea {
+    width: 25rem;
+    height: 12rem;
+  }
+}
+
+@media (max-width: 503px) {
+  #about h1 {
+    padding-top: 1.2rem;
+  }
+
+  #about .flex3 .btn2 {
+    margin-top: 0.1rem;
+  }
+}
+
+@media (max-width: 415px) {
+  /* About */
+  #about h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  #about .items .about-info .item .btn {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  #about .items .about-info .progress {
+    width: 300px;
+  }
+
+  #about .items .about-info .progress .progressbar {
+    width: 297px;
+  }
+
+  #about .items .about-info .progress .progressbar2 {
+    width: 297px;
+  }
+
+  #about .items .about-info .progress .progressbar3 {
+    width: 295px;
+  }
+
+  .progress4 {
+    width: 350px;
+  }
+
+  #contact textarea {
+    width: 25rem;
+    height: 10rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .progress4 {
+    width: 300px;
+  }
+
+  #about .edu .flex td {
+    left: 250px;
+  }
+
+  #about .edu .flex2 td {
+    left: 250px;
+  }
+}
+
+@media (max-width: 380px) {
+  #about .items .about-info {
+    font-size: 1rem;
+  }
+
+  #about .edu {
+    font-size: 0.85rem;
+  }
+
+  #contact h1 {
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+  }
+
+  #contact p {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  #contact textarea {
+    width: 25rem;
+    height: 10rem;
+  }
+}
+
+@media (max-width: 332px) {
+  #contact h1 {
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+  }
+
+  #contact p {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  #contact textarea {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #about {
+    font-size: 0.75rem;
+  }
+
+  #about h1 {
+    padding-top: 1.5rem;
+  }
+
+  #about .items .about-info .skillset {
+    display: none;
+  }
+
+  #about .items .about-info span {
+    font-size: 0.65rem;
+  }
+
+  #about .edu .flex td {
+    left: 200px;
+  }
+
+  #about .edu .flex2 td {
+    left: 200px;
+  }
+
+  .progress4 {
+    width: 250px;
+  }
+
+  #about .flex3 {
+    margin-top: 0.75rem;
+  }
+}

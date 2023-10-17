@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/60275ae3ce.js"
+      crossorigin="anonymous"
+    ></script>
+  <link rel="shortcut icon" href="/alx_capstone_project/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+  <title>John Doe Photography</title>
+</head>
+
+<body>
+    <div class="menu-btn">
+      <div class="btn-lines"></div>
+      <div class="btn-lines"></div>
+      <div class="btn-lines"></div>
+    </div>
+
+    <nav>
+      <div class="logo">
+        <img src="/alx_capstone_project/img/profile picture.jpg" alt="John Doe" />
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html"  class="current">Contact</a></li>
+      </ul>
+    </nav>
+
+        <!-- contact -->
+        <section id="contact" class="py-1">
+          <div class="container">
+            <h1 class="center py-1">CONTACT</h1>
+            <p class="center py-1">What Do You Want To Do?</p>
+            <form name="contact" method="POST" data-netlify="true">
+              <div class="s4">
+                <div class="form">
+                  <input type="text" name="name" id="name" required autocomplete="off">
+                  <label class="label-name" for="name">
+                    <span class="content-name">Name</span>
+                  </label>
+                </div>
+                <div class="form">
+                  <input type="text" name="email" id="email" required autocomplete="off">
+                  <label class="label-name" for="email">
+                    <span class="content-name">Email</span>
+                  </label>
+                </div>
+              </div>
+              <div class="s3">
+                <textarea name="message" required id="message" cols="110" rows="15"></textarea>
+                <label for="message"></label>
+              </div>
+              <div class="s5">
+                <input type="submit" class="btn2" value="SEND" />
+              </div>
+            </form>
+        </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
